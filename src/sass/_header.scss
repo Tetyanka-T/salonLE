@@ -1,23 +1,8 @@
-// ---------------------------
-// Vars & Helper Functions
-// ---------------------------
-
-:root {
-  --screen-height:    600px;
-  --header-bg-color:  #696969;
-  --splash-bg-color:  #696969;
-}
-
 // calculate a circle's circumference based on radius
 @function circumference($r){
   $pi: 3.141592653;
   @return 2*$pi*$r;
 }
-
-
-// ---------------------------
-// Main Navigation Menu
-// ---------------------------
 
 .nav {
   &__toggle {
@@ -79,11 +64,6 @@
   }
 }
 
-
-// ---------------------------
-// SVG Menu Icon
-// ---------------------------
-
 .menuicon {
   display:block;
   cursor:pointer;
@@ -111,11 +91,6 @@
   }
 }
 
-
-// ---------------------------
-// Circular Splash Background
-// ---------------------------
-
 .splash {
   position:absolute;
   top:40px;
@@ -129,9 +104,6 @@
     position:absolute;
     border-radius:60%;
     background-color:var(--splash-bg-color);
-    
-    // screen diameter can be 142vmax at most,
-    // circle needs to be twice that size to cover it
     width:95vmax;
     height:190vmax;
     top:-95vmax;
@@ -140,9 +112,6 @@
     transform: scale(0);
     transform-origin:50% 50%;
     transition: transform .5s cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    
-    // will-change tells the browser we plan to 
-    // animate this property in the near future
     will-change:transform;
   }
 }
@@ -181,8 +150,10 @@
       height:165vmax;
       // top:-76vmax;
       left:-100vmax;
-      
     }
+  }
+  .logo {
+    left: 200px;
   }
 }
 
@@ -191,19 +162,11 @@
     display: none;
   }
 }
-// ---------------------------
-// Active State
-// ---------------------------
-
 .nav:target,
 .nav--open {
-  
-  //scale the background circle to full size
   > .splash::after {
     transform:scale(1);
   }
-  
-  //animate the menu icon
   .menuicon {
     color:white;
     transform:rotate(180deg);
@@ -223,7 +186,6 @@
     }
   }
   
-  //show the nav items
   .nav {
     &__menu {
       visibility:visible;
@@ -236,11 +198,6 @@
   }
 }
 
-// ---------------------------
-// Demo Stuff, Ignore
-// ---------------------------
-
-
 .viewport {
   // width: 320px;
   // height:var(--screen-height);
@@ -250,21 +207,17 @@
 }
 
 .header {
-  height:60px;
-  
+  height: 60px;
 }
 
 
 .logo_container {
   position: relative;
-
 }
 .logo {
-width: 160px;
-height: 160px;
+width: 150px;
+height: 150px;
 position: absolute;
 left: 15px;
 top: 20px;
-
-
 }

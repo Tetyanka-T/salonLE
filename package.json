@@ -4,8 +4,7 @@
   "description": "",
   "homepage": "https://github.com/Tetyanka-T/salonLE",
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "start": "parcel src/*.html"
   },
   "repository": {
     "type": "git",
@@ -15,8 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "modern-normalize": "^1.1.0",
-    "normalize.css": "^8.0.1"
+    "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
