@@ -1,0 +1,41 @@
+.contact {
+    background-color: var(--background-color);
+    padding-bottom: 20px;
+}
+
+.contact_map {
+    width: 280px;
+    height: 300px;
+   
+    & iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+.logo-footer_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact_name {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.contact_adres__container {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.footer {
+    background-color: var(--header-bg-color);
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0;
+}
