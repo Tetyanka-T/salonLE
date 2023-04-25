@@ -1,0 +1,16 @@
+.advantage {
+    padding-bottom: 20px;
+}
+
+.advantage-list {
+    margin: 0 auto;
+    & li {
+        margin-bottom: 15px;
+        & svg {
+            margin-right: 10px;
+        }
+    }
+    & li:last-child {
+        margin-bottom: 0;
+    }
+}

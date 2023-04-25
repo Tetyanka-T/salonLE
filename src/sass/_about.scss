@@ -14,7 +14,7 @@
         display: inline-block;
         border-radius: 3px;
         font-size: 0;
-        width: 320px;
+        width: 290px;
     }
 }
 
@@ -24,9 +24,14 @@
 
 .about-section_service {
     margin: 20px 0;
+    // text-align-last: left;
 }
 .gallery-desctop {
     display: none;
+}
+
+.about-section_prof {
+    text-align: center;
 }
 @media screen and (min-width: 1200px) {
     .gallery {
