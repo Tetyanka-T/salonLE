@@ -36,3 +36,15 @@
     margin: 0 auto;
 
 }
+
+@media screen and (min-width: 768px) {
+    .info-section_le, .info-section_le, .info-section_course, .info-section_contraindication, .info-section_preparation {
+       padding: 0 70px;
+    } 
+}
+
+@media screen and (min-width: 1200px) {
+    .info-section_le, .info-section_le, .info-section_course, .info-section_contraindication, .info-section_preparation {
+       padding: 0 200px;
+    } 
+}
