@@ -4,7 +4,9 @@
   "description": "",
   "homepage": "https://github.com/Tetyanka-T/salonLE",
   "scripts": {
-    "start": "parcel src/*.html"
+    "start": "parcel src/*.html",
+    "predeploy": "npm run build",
+    "deploy": "netlify deploy -p"
   },
   "repository": {
     "type": "git",
