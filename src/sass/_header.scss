@@ -211,7 +211,7 @@ top: 20px;
 }
 
 @media screen and (min-width: 1024px) {
-  .nav, header {
+  .nav, header, .viewport, .nav__menu {
     display: none;
   }
   .logo {

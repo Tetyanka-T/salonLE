@@ -24,17 +24,36 @@
 
 .about-section_service {
     margin: 20px 0;
-    // text-align-last: left;
 }
-.gallery-desctop {
+.gallery-desctop, .price-list_desctop {
     display: none;
 }
 
 .about-section_prof {
     text-align: center;
 }
+
+.price-list {
+	padding: 40px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 15px;
+	grid-row-gap: 10px;
+	overflow: scroll;
+	scroll-snap-type: both mandatory;
+	scroll-padding: 1rem;
+    & li {
+        scroll-snap-align: center;
+        display: inline-block;
+        border-radius: 3px;
+        font-size: 0;
+        width: 290px;
+    }
+}
+
 @media screen and (min-width: 1200px) {
-    .gallery {
+    .gallery, .price-list {
       display: none;
     }
     .gallery-desctop {
@@ -50,4 +69,18 @@
             margin-right: 0;
         }
     }
+
+    .price-list_desctop  {
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        & li {
+            width: 320px;
+            margin-right: 20px;
+        }
+        & li:last-child {
+            margin-right: 0;
+        }
+    }
+    
 }
