@@ -1,0 +1,32 @@
+.header-desctop {
+    display: none;
+  }
+
+@media screen and (min-width: 1024px) {
+    .header-desctop {
+        display: flex;
+        background-color: var(--header-bg-color);
+          position: relative;
+          height: 60px;
+          }
+   .logo-desctop {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top: 20px;
+    left: 90px
+   }
+    .nav__menu-dectop {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+       
+        & li {
+            color: #000;
+            margin-right: 20px;
+            font-size: 18px;
+          
+        }
+    }
+}
+
