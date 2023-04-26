@@ -14,3 +14,16 @@
         margin-bottom: 0;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .advantage-list {
+        margin-left: 200px;
+        padding-bottom: 40px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .advantage-list {
+        margin-left: 400px;
+        padding-bottom: 60px;
+    }
+}

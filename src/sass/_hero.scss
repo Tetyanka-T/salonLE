@@ -21,13 +21,16 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-size: 768px 500px;
-    padding: 250px 43px;
+    background-size: 768px 600px;
+    padding: 260px 43px;
   }
 }
 @media screen and (min-width: 1204px) {
   .hero {
-   
-    padding: 230px 70px;
+    background-size: 800px 700px;
+    padding: 270px 100px;
+  }
+  .hero_title {
+    margin-left: 250px;
   }
 }

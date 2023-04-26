@@ -198,6 +198,11 @@ top: 20px;
     }
   }
 }
+@media screen and (min-width: 768px) {
+.logo {
+  left: 60px;
+}
+}
 @media screen and (min-width: 850px) {
   .splash {
     
