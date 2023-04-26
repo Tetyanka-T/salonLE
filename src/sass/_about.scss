@@ -52,6 +52,21 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .section-about {
+        display: flex;
+        align-items: center;
+        padding: 40px 0;
+    }
+    .section-about_info {
+        margin-left: 40px;
+    }
+    .tab {
+        margin-top: 0;
+    }
+}
+
+
 @media screen and (min-width: 1200px) {
     .gallery, .price-list {
       display: none;
@@ -82,5 +97,14 @@
             margin-right: 0;
         }
     }
+    .section-about {
+        padding: 60px 0;
+    }
+    .section-about_info {
+        margin-left: 60px;
+    }
+  .about-section_service {
+    margin-top: 40px;
+  }
     
 }
