@@ -1,13 +1,22 @@
 .section-salon_list {
-    & li {
-        margin-top: 20px;
-    }
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    // & li {
+    //     margin-top: 20px;
+    // }
 }
 
 .section-salon_list-plus {
-    margin-top: 20px;
+    margin: 20px 0;
     & li {
         margin-top: 10px;
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .section-salon_list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

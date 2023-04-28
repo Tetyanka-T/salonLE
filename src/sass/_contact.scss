@@ -48,6 +48,28 @@
     padding: 10px 0;
 }
 
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    opacity: 100%;
+    transition: opacity 0.5s;
+  }
+  
+  .back-to-top:hover {
+    opacity: 60%;
+  }
+  .back-to-top-icon {
+    width: 30px;
+    height: 30px;
+    color: var(--background-color);
+  }
+
 @media screen and (min-width: 768px) {
     .contact_adres {
         display: flex;
