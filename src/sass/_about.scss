@@ -14,7 +14,7 @@
         display: inline-block;
         border-radius: 3px;
         font-size: 0;
-        width: 290px;
+        width: 300px;
         position: relative;
     }
 }
@@ -73,6 +73,14 @@
     }
     .tab {
         margin-top: 0;
+    }
+    .gallery {
+   
+        & li {
+
+            width: 350px;
+        
+        }
     }
 }
 
