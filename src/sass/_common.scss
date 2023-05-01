@@ -52,7 +52,7 @@
   }
   
   .section {
-    padding-top: 40px;
+    padding-top: 20px;
     color: #212121;
     font-size: 18px;
     font-weight: 400;
@@ -88,12 +88,12 @@
   }
   @media screen and (min-width: 768px) {
     .section {
-      padding-top: 60px;
+      padding-top: 50px;
     }
   }
 
   @media screen and (min-width: 1200px) {
     .section {
-      padding-top: 70px;
+      padding-top: 60px;
     }
   }

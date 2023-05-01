@@ -21,6 +21,7 @@
 }
 
 .info-section_preparation-list {
+    padding-bottom: 20px;
     & li {
         margin-top: 10px;
     }
@@ -34,7 +35,6 @@
 .info {
     display: block;
     margin: 0 auto;
-
 }
 
 @media screen and (min-width: 768px) {
