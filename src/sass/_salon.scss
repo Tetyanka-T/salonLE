@@ -1,11 +1,9 @@
 .section-salon_list {
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 15px;
-    // & li {
-    //     margin-top: 20px;
-    // }
+    padding-bottom: 30px;
 }
 
 .section-salon_list-plus {

@@ -3,34 +3,83 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 400px 400px;
-  padding: 150px 43px;
+  padding: 300px 43px 5px 20px;
 }
+
 .hero_title {
-  margin: 0 auto;
   font-family: var(--main-font);
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 600;
   color: var(--text-color);
+  width: 150px;
 }
-@media screen and (min-width: 400px) {
+.logo_container {
+  position: relative;
+}
+.logo {
+width: 150px;
+height: 150px;
+position: absolute;
+left: -20px;
+top: -300px;
+}
+
+@media screen and (min-width: 450px) {
   .hero {
     background-size: 550px 500px;
-    padding: 200px 43px;
+    padding: 350px 43px 5px 20px;
   }
+  .logo {
+    width: 160px;
+    height: 160px;
+    left: -40px;
+    top: -350px;
+    }
+ 
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-size: 768px 600px;
-    padding: 260px 43px;
-  }
-}
-@media screen and (min-width: 1204px) {
-  .hero {
-    background-size: 800px 700px;
-    padding: 270px 100px;
+    background-size: 800px 600px;
+    padding: 500px 43px 25px 20px;
   }
   .hero_title {
-    margin-left: 250px;
+    font-size: 30px;
+    width: 280px;
   }
+  .logo {
+    left: -30px;
+    top: -480px;
+    }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-size: 1050px 750px;
+    padding: 600px 43px 45px 20px;
+  }
+  .logo {
+    left: 60px;
+    top: -580px;
+    width: 170px;
+    height: 170px;
+    }
+    .hero_title {
+      margin-left: 100px;
+    }
+}
+@media screen and (min-width: 1500px) {
+  .hero {
+    background-size: 1200px 950px;
+    padding: 700px 43px 45px 20px;
+  }
+  .logo {
+    left: 40px;
+    top: -680px;
+    width: 180px;
+    height: 180px;
+    }
+    .hero_title {
+      font-size: 32px;
+      width: 300px;
+    }
 }
