@@ -27,7 +27,7 @@
   &__menu {
     display:flex;
     flex-direction:column;
-    padding-top: 100px;
+    padding-top: 180px;
     height:var(--screen-height);
     position:relative;
     z-index:30;
@@ -102,7 +102,7 @@
     border-radius:250px;
     background-color:var(--splash-bg-color);
     width:155vmin;
-    height:270vmin;
+    height:290vmin;
     top:-130vmin;
     left:-142vmin;
     
