@@ -12,19 +12,21 @@
 	scroll-snap-type: both mandatory;
 	scroll-padding: 1rem;
     background-color: #fff;
-    & li {
-        scroll-snap-align: center;
-        display: inline-block;
-        border-radius: 3px;
-        font-size: 0;
-        width: 300px;
-        position: relative;
-    }
+   
+}
+.gallery-list_item {
+    scroll-snap-align: center;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 0;
+    width: 300px;
+    position: relative;
     & img {
         width: 100%;
         height: auto;
     }
 }
+
 .transparent {
     position: absolute;
     top: 0;
@@ -102,22 +104,34 @@
         justify-content: center;
         padding: 30px;
         background-color: #fff;
-        & li {
-            width: 320px;
-            margin-right: 15px;
-            position: relative;
-        }
-        & img {
-            
-            width: 100%;
-            height: auto;
-        }
+
        
-        & li:last-child {
+        & .gallery-list_item__dectop:last-child {
             margin-right: 0;
         }
     }
-
+    .gallery-list_item__dectop {
+        position: relative;
+        width: 320px;
+        height: 225px;
+        margin-right: 15px;
+     
+           
+        
+       
+  
+        & img {
+            width: 100%;
+            height: 100%;
+            
+        }
+    }
+    .transparent_desc {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
     .price-list_desctop  {
         display: flex;
         justify-content: center;
