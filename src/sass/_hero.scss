@@ -3,15 +3,19 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 400px 400px;
-  padding: 300px 43px 5px 20px;
+  padding: 270px 43px 20px 20px;
 }
 
 .hero_title {
   font-family: var(--main-font);
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
   color: var(--text-color);
-  width: 150px;
+  margin-left: -20px;
+  line-height: 1.2;
+  
+
+  // width: 180px;
 }
 .logo_container {
   position: relative;
@@ -21,13 +25,13 @@ width: 150px;
 height: 150px;
 position: absolute;
 left: -20px;
-top: -300px;
+top: -270px;
 }
 
 @media screen and (min-width: 450px) {
   .hero {
     background-size: 550px 500px;
-    padding: 350px 43px 5px 20px;
+    padding: 350px 43px 20px 20px;
   }
   .logo {
     width: 160px;
@@ -35,21 +39,24 @@ top: -300px;
     left: -40px;
     top: -350px;
     }
- 
+    .hero_title {
+      font-size: 26px;
+      margin-left: -60px;
+    }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
     background-size: 800px 600px;
-    padding: 500px 43px 25px 20px;
+    padding: 445px 43px 45px 20px;
   }
   .hero_title {
     font-size: 30px;
-    width: 280px;
+    margin-left: -40px;
   }
   .logo {
     left: -30px;
-    top: -480px;
+    top: -450px;
     }
 }
 @media screen and (min-width: 1200px) {
@@ -64,6 +71,7 @@ top: -300px;
     height: 170px;
     }
     .hero_title {
+      font-size: 32px;
       margin-left: 100px;
     }
 }
@@ -78,8 +86,5 @@ top: -300px;
     width: 180px;
     height: 180px;
     }
-    .hero_title {
-      font-size: 32px;
-      width: 300px;
-    }
+
 }
