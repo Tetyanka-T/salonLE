@@ -102,7 +102,7 @@
     position:absolute;
     border-radius:250px;
     background-color:var(--splash-bg-color);
-    width:155vmin;
+    width:154vmin;
     height:270vmin;
     top:-130vmin;
     left:-142vmin;
@@ -159,7 +159,19 @@
   height: 60px;
 }
 
-
+@media screen and (min-width: 350px) {
+  .splash {
+    
+    &::after {
+      content:"";
+      
+      width:153vmin;
+    height:270vmin;
+    top:-130vmin;
+    left:-142vmin;
+    }
+  }
+}
 
 
 
@@ -169,10 +181,10 @@
     &::after {
       content:"";
       
-      width:95vmax;
+      width:96vmax;
       height:140vmax;
-      top:-80vmax;
-      left:-90vmax;
+      top:-82vmax;
+      left:-91vmax;
     }
   }
 }
@@ -199,10 +211,10 @@
   .splash {
     
     &::after {
-      width:105vmax;
+      width:106vmax;
       height:140vmax;
       top:-65vmax;
-      left:-100vmax;
+      left:-101vmax;
     }
   }
 }
