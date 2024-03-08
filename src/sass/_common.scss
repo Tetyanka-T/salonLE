@@ -1,99 +1,103 @@
- 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-  }
+body {
+  font-style: normal;
+  font-family: 'Montserrat', sans-serif;
+  color: #212121;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
   
-  p {
-    margin: 0;
-  }
+p {
+  margin: 0;
+}
   
-  ul,
-  ol {
-    margin: 0;
-    padding: 0;
-  }
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
   
-  .link {
-    text-decoration: none;
-  }
+.link {
+  text-decoration: none;
+}
   
-  .list {
-    list-style: none;
-  }
+.list {
+  list-style: none;
+}
   
-  img {
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+  
+.icon {
+  fill: var(--main-color);
+}
+  
+.hidden {
+  display: none;
+}
+  
+a {
+  text-decoration: none;
+  color: inherit;
+}
+  
+.section {
+  padding-top: 20px;
+  color: #212121;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section_title {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+.back-to-top {
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  border-radius: 50%;
+  background-color:#9ca8e5;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  opacity: 100%;
+  transition: opacity 0.5s;
+}
+  
+.back-to-top:hover {
+  opacity: 60%;
+}
+.back-to-top-icon {
+  width: 30px;
+  height: 30px;
+  fill:#f5f4fa;
+}
+footer {
+  & a {
+    text-decoration: underline;
+    margin-top: 5px;
     display: block;
-    max-width: 100%;
-    height: auto;
   }
-  
-  body {
-    font-style: normal;
-    font-family: 'Montserrat', sans-serif;
-    color: #212121;
-  }
-  
-  .icon {
-    fill: var(--main-color);
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
+}
+@media screen and (min-width: 768px) {
   .section {
-    padding-top: 20px;
-    color: #212121;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-   
+    padding-top: 50px;
   }
-  .section_title {
-    font-size: 22px;
-    font-weight: 600;
-    text-align: center;
-  }
-  .back-to-top {
-    position: fixed;
-    right: 10px;
-    bottom: 20px;
-    border-radius: 50%;
-    background-color:#9ca8e5;
-    padding: 5px;
-    border: none;
-    cursor: pointer;
-    opacity: 100%;
-    transition: opacity 0.5s;
-  }
-  
-  .back-to-top:hover {
-    opacity: 60%;
-  }
-  .back-to-top-icon {
-    width: 30px;
-    height: 30px;
-    fill:#f5f4fa;
-  }
-  @media screen and (min-width: 768px) {
-    .section {
-      padding-top: 50px;
-    }
-  }
+}
 
-  @media screen and (min-width: 1200px) {
-    .section {
-      padding-top: 60px;
-    }
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 60px;
   }
+}
